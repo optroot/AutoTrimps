@@ -92,6 +92,7 @@ function autoPortal() {
         case "Watch":
         case "Lead":
         case "Corrupted":
+        case "Domination":
             if(!game.global.challengeActive) {
                 doPortal(autoTrimpSettings.AutoPortal.selected);
             }
@@ -173,6 +174,7 @@ function findOutCurrentPortalLevel() {
         "Lead" : 181,
         "Watch" : 181,
         "Corrupted" : 191
+        "Domination" : 216
     };
     var AP = getPageSetting("AutoPortal");
     switch (AP) {
