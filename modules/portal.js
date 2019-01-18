@@ -173,7 +173,7 @@ function findOutCurrentPortalLevel() {
         "Toxicity" : 166,
         "Lead" : 181,
         "Watch" : 181,
-        "Corrupted" : 191
+        "Corrupted" : 191,
         "Domination" : 216
     };
     var AP = getPageSetting("AutoPortal");
